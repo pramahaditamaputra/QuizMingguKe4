@@ -10,18 +10,6 @@ const Blog = ({
   setShowMenu,
 }) => {
   const [blogs, setBlogs] = useState("");
-
-  // const getList = () => {
-  // const res = await axios.get(
-  //   "https://dummyapi.io/data/api/user/0F8JIqi4zwvb77FGz6Wt/post?limit=2",
-  //   {
-  //     headers: {
-  //       "app-id": "601cbc4bba8d73216f9cf02c",
-  //     },
-  //   }
-  // );
-  // return res;
-
   const fetchData = useCallback(() => {
     axios({
       method: "GET",
@@ -38,7 +26,6 @@ const Blog = ({
         console.log(error);
       });
   }, []);
-  // };
 
   useEffect(() => {
     fetchData();
@@ -53,6 +40,7 @@ const Blog = ({
       setShowBlog("section-vcardbody section-page");
     };
   }, [fetchData]);
+
   return (
     <>
       <div className={showBlog} id="page-blog">

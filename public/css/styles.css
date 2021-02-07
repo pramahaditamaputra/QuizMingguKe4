@@ -33,7 +33,7 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 ! 01. MIXINS / VARIABLES
 ==============	=========================================== */
 .color1 {
-  color: #08aeac;
+  color: #ffa384;
 }
 .color2 {
   color: #021533;
@@ -42,7 +42,7 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
   color: #d9212a;
 }
 .font1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .bold {
   font-weight: bold;
@@ -69,13 +69,14 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 ! 02. GENERAL 
 ========================================================== */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
-  background: url('../img/bg1.jpg') no-repeat center center fixed;
+  /* background: url("../img/un-10.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #ffa384;
 }
 /* ==========================================================
 ! 03. Buttons
@@ -104,7 +105,7 @@ a:focus {
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #008c8a !important;
+  background: #ffa384 !important;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
@@ -114,13 +115,13 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border: 0px solid transparent!important;
+  border: 0px solid transparent !important;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 .btn-default:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -135,7 +136,7 @@ a:focus {
 }
 .btn-default:hover {
   color: #ffffff;
-  border: 0px solid transparent!important;
+  border: 0px solid transparent !important;
 }
 .btn-default:hover:before {
   width: 100%;
@@ -267,7 +268,7 @@ iframe {
   -moz-transform: translateY(-80px);
   -o-transform: translateY(-80px);
   transform: translateY(-80px);
-  opacity: 0!important;
+  opacity: 0 !important;
 }
 .loader-down {
   -webkit-transform: translateY(80px);
@@ -286,7 +287,7 @@ iframe {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 4px solid #fff;
   top: 50%;
   animation: loader 2s infinite ease;
 }
@@ -369,7 +370,7 @@ iframe {
   width: 30px;
   height: 30px;
   text-align: center;
-  background: #333333;
+  background: #74bdcb;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -393,7 +394,7 @@ iframe {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .container {
     min-height: 680px;
   }
@@ -402,11 +403,11 @@ iframe {
   width: 99%;
   margin: 0 auto;
   overflow-y: scroll;
-  background: url('../img/bg-card2.png') repeat-x right top #f4f4f4;
+  background: url("../img/bg-card2.png") repeat-x right top #f4f4f4;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
-  border-top: 6px solid #111;
+  border-top: 6px solid #ffa384;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -418,7 +419,7 @@ iframe {
   box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
   border-bottom: 15px solid #f4f4f4;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .section-vcardbody {
     position: absolute;
     margin-top: 40px;
@@ -437,7 +438,7 @@ iframe {
 .section-vcardbody-pgactive {
   left: 15%;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .section-page-single {
     left: 55%;
     transform: translateY(-200px);
@@ -448,13 +449,13 @@ iframe {
     padding-top: 0px;
   }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .section-page {
     z-index: 11;
     opacity: 0;
   }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .page-mask {
     position: absolute;
     top: 605px;
@@ -484,7 +485,7 @@ iframe {
   -moz-transform: translateY(0px);
   -webkit-transform: translateY(0px);
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .section-page-active {
     margin-top: 40px;
     margin-left: 10px;
@@ -497,7 +498,7 @@ iframe {
 }
 .ps-scrollbar-y-rail {
   opacity: 0.9 !important;
-  right: 4px!important;
+  right: 4px !important;
 }
 /* ==========================================================
 ! 07. SECTION: Main Menu
@@ -514,7 +515,7 @@ iframe {
   transition: all 0.6s ease-in-out;
   display: none;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .main-menu {
     display: block;
   }
@@ -538,10 +539,11 @@ iframe {
   list-style: none;
 }
 .main-menu-list a {
+  border-radius: 5px !important;
   display: block;
-  background: #08aeac;
+  background: #e7f2f8;
   padding: 10px;
-  color: #ffffff;
+  color: #ffa384;
   text-transform: uppercase;
   font-size: 12px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -549,6 +551,7 @@ iframe {
   transition: all 0.3s ease-in-out;
   position: relative;
   overflow: hidden;
+  font-weight: bold;
   z-index: 1;
 }
 .main-menu-list a:active,
@@ -556,7 +559,7 @@ iframe {
   text-decoration: none;
 }
 .main-menu-list a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -566,12 +569,12 @@ iframe {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #021533;
+  background: #74bdcb;
   z-index: -1;
 }
 .main-menu-list a:hover {
   color: #ffffff;
-  border: 0px solid transparent!important;
+  border: 0px solid transparent !important;
   text-decoration: none;
   padding-left: 15px;
 }
@@ -614,7 +617,7 @@ iframe {
   opacity: 0;
 }
 .profileActive {
-  opacity: 1!important;
+  opacity: 1 !important;
 }
 .vcard-profile-description {
   text-align: center;
@@ -647,7 +650,7 @@ iframe {
   border: none;
   height: 1px;
   width: 100%;
-  background: url('../img/hr1.png') no-repeat center center;
+  background: url("../img/hr1.png") no-repeat center center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -657,7 +660,7 @@ iframe {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 10px;
-  background: url('../img/bg-btn.png') no-repeat center center #08aeac;
+  background-color: #ffa384;
 }
 .vcard-profile-description-ft-item p {
   margin-bottom: 0;
@@ -680,7 +683,7 @@ iframe {
 }
 .section-title2 {
   font-weight: bold;
-  color: #08aeac;
+  color: #ffa384;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -1px;
@@ -688,7 +691,7 @@ iframe {
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-left: 4px solid #08aeac;
+  border-left: 4px solid #ffa384;
 }
 .resume-item {
   padding: 15px;
@@ -786,7 +789,7 @@ iframe {
   font-weight: bold;
 }
 .testimonial-content {
-  background: url('../img/bgmask2.png') no-repeat center center #08aeac;
+  background: url("../img/bgmask2.png") no-repeat center center #08aeac;
   color: #ffffff;
   padding: 20px;
   border-radius: 10px;
@@ -800,7 +803,7 @@ iframe {
   line-height: 16px;
 }
 .testimonial-content:after {
-  content: '';
+  content: "";
   display: block;
   width: 10px;
   height: 10px;
@@ -994,7 +997,7 @@ iframe {
   margin-bottom: 40px;
 }
 .progress-bar {
-  background: #08aeac;
+  background: #ffa384;
   width: 20%;
 }
 .progress-bar-2 {
@@ -1021,7 +1024,7 @@ iframe {
   -moz-transform: translateY(0px);
 }
 .project-item a {
-  cursor: url('../img/projects2.cur'), projetos !important;
+  cursor: url("../img/projects2.cur"), projetos !important;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1082,7 +1085,7 @@ iframe {
   transition: all 0.4s ease-in-out;
 }
 .project-title:after {
-  content: '';
+  content: "";
   display: block;
   height: 1px;
   border-bottom: 1px solid #ffffff;
@@ -1149,8 +1152,8 @@ span.see-more {
   text-decoration: none;
 }
 .blog-item-thumb a {
-  cursor: url('../img/projects.cur'), projetos !important;
-  -moz-cursor: url('../img/projects.cur'), projetos !important;
+  cursor: url("../img/projects.cur"), projetos !important;
+  -moz-cursor: url("../img/projects.cur"), projetos !important;
 }
 .blog-item-thumb img {
   width: 100%;
@@ -1213,7 +1216,7 @@ span.see-more {
   background: rgba(0, 0, 0, 0.9);
   z-index: 888;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .vcard-header-single {
     width: 40%;
     left: 30%;
@@ -1244,7 +1247,7 @@ span.see-more {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .post-header-image {
     margin-left: -30px;
     margin-right: -40px;
@@ -1295,7 +1298,7 @@ span.see-more {
   font-size: 12px;
 }
 .well {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 .blog-comments > .media {
   border-bottom: 1px dotted #000000;
@@ -1308,7 +1311,7 @@ span.see-more {
   margin-top: 25px;
 }
 .media img {
-  width: 64px!important;
+  width: 64px !important;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1328,20 +1331,20 @@ span.see-more {
   left: 0;
   width: 100%;
   height: 100%;
-  cursor: url('../img/projects.cur'), projetos !important;
+  cursor: url("../img/projects.cur"), projetos !important;
 }
 /* ==========================================================
 ! 17. SECTION: Contact
 ========================================================== */
 .contact-subtitle-1 {
-  color: #08aeac;
+  color: #ffa384;
   font-size: 14px;
   letter-spacing: -1px;
   font-weight: bold;
   margin-bottom: 8px;
   margin-top: 25px;
   padding-bottom: 5px;
-  border-bottom: 1px dotted #08aeac;
+  border-bottom: 1px dotted #ffa384;
 }
 .contact-subtitle-1:first-child {
   margin-top: 0;
