@@ -43,7 +43,7 @@ const Resume = ({
                       <CardResume
                         resumeName={resume.name}
                         resumeRole={resume.role}
-                        resumeYear={resume.years}
+                        resumeYears={resume.years}
                         resumeDescription={resume.description}
                       />
                     </>
