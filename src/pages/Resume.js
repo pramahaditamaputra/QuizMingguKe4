@@ -30,26 +30,26 @@ const Resume = ({
         <div className="section-education">
           <h2 className="section-title">Resume</h2>
 
-          {resumes.map((resume) => {
+          {resumes.map((resume, index) => {
             return (
-              <>
+              <div key={index}>
                 <h2 className="section-title2">
                   <i className="fa fa-university" />
                   &nbsp; {resume.title}
                 </h2>
-                {resume.resumes.map((resume) => {
+                {resume.resumes.map((resume, index) => {
                   return (
-                    <>
+                    <div key={index}>
                       <CardResume
                         resumeName={resume.name}
                         resumeRole={resume.role}
                         resumeYears={resume.years}
                         resumeDescription={resume.description}
                       />
-                    </>
+                    </div>
                   );
                 })}
-              </>
+              </div>
             );
           })}
         </div>

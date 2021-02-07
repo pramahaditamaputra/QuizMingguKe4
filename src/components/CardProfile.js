@@ -39,19 +39,19 @@ const CardProfile = ({
 
         <div className="vcard-footer">
           <div className="footer-social-icons">
-            <a href={personalInfo.instagram} target="_blank">
+            <a href={personalInfo.instagram} target="_blank" rel="noreferrer">
               <i className="fa fa-instagram" />
             </a>
-            <a href={personalInfo.facebook} target="_blank">
+            <a href={personalInfo.facebook} target="_blank" rel="noreferrer">
               <i className="fa fa-facebook" />
             </a>
-            <a href={personalInfo.twitter} target="_blank">
+            <a href={personalInfo.twitter} target="_blank" rel="noreferrer">
               <i className="fa fa-twitter" />
             </a>
-            <a href={personalInfo.linkedIn} target="_blank">
+            <a href={personalInfo.linkedIn} target="_blank" rel="noreferrer">
               <i className="fa fa-linkedin" />
             </a>
-            <a href={personalInfo.youtube} target="_blank">
+            <a href={personalInfo.youtube} target="_blank" rel="noreferrer">
               <i className="fa fa-youtube" />
             </a>
           </div>

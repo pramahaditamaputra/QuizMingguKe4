@@ -29,26 +29,26 @@ const Skills = ({
       <div className={showSkills} id="page-skills">
         <div className="section-skills">
           <h2 className="section-title">SKILLS</h2>
-          {skills.map((skill) => {
+          {skills.map((skill, index) => {
             return (
-              <>
+              <div key={index}>
                 <h3 className="section-item-title-2">
                   <i className="fa fa-users" />
                   &nbsp;&nbsp; {skill.title}
                 </h3>
                 <ul className="skills-list">
-                  {skill.skills.map((skill) => {
+                  {skill.skills.map((skill, index) => {
                     return (
-                      <>
+                      <div key={index}>
                         <ProgressBar
                           skillName={skill.name}
                           skillPercentage={skill.percentage}
                         />
-                      </>
+                      </div>
                     );
                   })}
                 </ul>
-              </>
+              </div>
             );
           })}
         </div>

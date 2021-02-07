@@ -28,11 +28,11 @@ const Portofolio = ({
       <div className="section-portfolio">
         <h2 className="section-title">Portfolio</h2>
         <div className="projects-list">
-          {portofolios.map((portofolio) => {
+          {portofolios.map((portofolio, index) => {
             return (
-              <>
+              <div key={index}>
                 <CardPortofolio portofolioName={portofolio.name} />
-              </>
+              </div>
             );
           })}
         </div>
