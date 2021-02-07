@@ -212,32 +212,32 @@ function App() {
           <ul className="main-menu-list">
             <li>
               <LinkContainer to="/Home">
-                <a className="link-home">Home</a>
+                <a className="link-home text-center">Home</a>
               </LinkContainer>
             </li>
             <li>
               <LinkContainer to="/Resume">
-                <a className="link-page">Resume</a>
+                <a className="link-page text-center">Resume</a>
               </LinkContainer>
             </li>
             <li>
               <LinkContainer to="/Skills">
-                <a className="link-page">Skills</a>
+                <a className="link-page text-center">Skills</a>
               </LinkContainer>
             </li>
             <li>
               <LinkContainer to="/Portofolio">
-                <a className="link-page">Portfolio</a>
+                <a className="link-page text-center">Portfolio</a>
               </LinkContainer>
             </li>
             <li>
               <LinkContainer to="/Blog">
-                <a className="link-page">Blog</a>
+                <a className="link-page text-center">Blog</a>
               </LinkContainer>
             </li>
             <li>
               <LinkContainer to="/Contact">
-                <a className="link-page">Contact</a>
+                <a className="link-page text-center">Contact</a>
               </LinkContainer>
             </li>
           </ul>
