@@ -186,7 +186,7 @@ function App() {
     name: "Pramahadi Tama Putra",
     address: "JL. Gracia 7 Blok F1 No.6",
     phoneNumber: "087889901930",
-    email: "pramahadi.putra@gmail.com",
+    email: "pramahaditamaputra@outlook.com",
     job: "Software Engineer",
     bio: `Software Engineer who have skills in Web App Development. Has excellent team-work and
           collaboration skills. Eager to learn new skills and meet new challenges in dynamic work and a multi-cultural environment.`,
