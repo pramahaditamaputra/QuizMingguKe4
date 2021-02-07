@@ -199,7 +199,7 @@ function App() {
   });
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       <Loader />
       <CardProfile
         personalInfo={personalInfo}
