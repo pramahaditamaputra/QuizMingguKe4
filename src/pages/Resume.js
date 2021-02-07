@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import CardProfile from "../components/CardProfile";
+import ResumeCard from "../components/ResumeCard";
 
 const Resume = ({
   resumes,
@@ -41,15 +42,12 @@ const Resume = ({
                 {resume.resumes.map((resume) => {
                   return (
                     <>
-                      <div className="resume-item">
-                        <h3 className="section-item-title-1">{resume.name}</h3>
-                        <h4 className="graduation-time">
-                          {resume.role} - {resume.years}
-                        </h4>
-                        <div className="graduation-description">
-                          <p>{resume.description}</p>
-                        </div>
-                      </div>
+                      <ResumeCard
+                        resumeName={resume.name}
+                        resumeRole={resume.role}
+                        resumeYear={resume.years}
+                        resumeDescription={resume.description}
+                      />
                     </>
                   );
                 })}
