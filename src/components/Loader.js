@@ -17,10 +17,10 @@ const Loader = () => {
             </span>
           </div>
           <div className="loader-name" id="loader-name">
-            Pramahadi <strong>Putra</strong>
+            <strong>Pramahadi Tama Putra</strong>
           </div>
           <p className="loader-job" id="loader-job">
-            Web Designer &amp; Web Developer
+            Software Engineer
           </p>
         </div>
       </div>
