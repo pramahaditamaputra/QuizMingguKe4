@@ -32,7 +32,7 @@ const Contact = ({
           <div className="map">
             <div className="map-overlay" />
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8352.985568651915!2d-0.12905994797222892!3d51.50665753790812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1spt-BR!2sbr!4v1443128181953"
+              src="https://maps.google.com/maps?q=JL.%20Gracia%207&t=k&z=17&ie=UTF8&iwloc=&output=embed"
               height={250}
               style={{ border: 0 }}
               allowFullScreen

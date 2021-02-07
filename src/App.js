@@ -96,7 +96,7 @@ function App() {
           name: "Apple Developer Academy | Indonesia",
           role: "Student",
           years: "March 2019 – January 2020",
-          description: `The Apple Developer Academy @ BINUS is Asia's first-ever initiative to empower Indonesia's economy by creating world-class developers for the world's most innovative and vibrant app ecosystem.
+          description: `The Apple Developer Academy @ BINUS is Asia's first-ever initiative to    empower Indonesia's economy by creating world-class developers for the world's most innovative and vibrant app ecosystem.
           The 10-month journey supports you to develop your own apps and become a well-rounded professional.`,
         },
         {
