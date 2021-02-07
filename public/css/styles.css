@@ -1358,9 +1358,10 @@ span.see-more {
 }
 .form-send {
   width: 100%;
+  border-radius: 5px;
 }
 .form-send:hover {
-  background: #d9212a !important;
+  background: #74bdcb !important;
 }
 .form-control {
   border-radius: 5px;
