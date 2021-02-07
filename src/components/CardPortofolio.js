@@ -7,7 +7,7 @@ const CardPortofolio = ({ portofolioName }) => {
           className="project-thumbnail nivobox"
           data-lightbox-gallery="portfolio"
           style={{
-            backgroundImage: 'url("img/portfolio/thumb-p1.jpg")',
+            backgroundColor: "#FFA384",
           }}
         >
           <div className="project-description-wrapper">
