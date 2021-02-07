@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import CardPortofolio from "../components/CardPortofolio";
 
 const Portofolio = ({
   portofolios,
@@ -30,23 +31,7 @@ const Portofolio = ({
           {portofolios.map((portofolio) => {
             return (
               <>
-                <div className="project-item">
-                  <a
-                    href="img/portfolio/p1.jpg"
-                    className="project-thumbnail nivobox"
-                    data-lightbox-gallery="portfolio"
-                    style={{
-                      backgroundImage: 'url("img/portfolio/thumb-p1.jpg")',
-                    }}
-                  >
-                    <div className="project-description-wrapper">
-                      <div className="project-description">
-                        <h2 className="project-title">{portofolio.name}</h2>
-                        <span className="see-more">Project Tags</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                <CardPortofolio portofolioName={portofolio.name} />
               </>
             );
           })}

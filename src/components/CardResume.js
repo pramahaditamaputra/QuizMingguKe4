@@ -1,4 +1,4 @@
-const ResumeCard = ({
+const CardResume = ({
   resumeName,
   resumeRole,
   resumeYears,
@@ -19,4 +19,4 @@ const ResumeCard = ({
   );
 };
 
-export default ResumeCard;
+export default CardResume;

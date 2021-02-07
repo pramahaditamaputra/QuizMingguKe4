@@ -1,7 +1,5 @@
 import Loader from "./components/Loader";
 import CardProfile from "./components/CardProfile";
-import MainMenu from "./components/MainMenu";
-import ResumeCard from "./components/ResumeCard";
 import Skills from "./pages/Skills";
 import Portofolio from "./pages/Portofolio";
 import Resume from "./pages/Resume";

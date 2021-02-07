@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import CardProfile from "../components/CardProfile";
-import ResumeCard from "../components/ResumeCard";
+import CardResume from "../components/CardResume";
 
 const Resume = ({
   resumes,
@@ -42,7 +40,7 @@ const Resume = ({
                 {resume.resumes.map((resume) => {
                   return (
                     <>
-                      <ResumeCard
+                      <CardResume
                         resumeName={resume.name}
                         resumeRole={resume.role}
                         resumeYear={resume.years}
